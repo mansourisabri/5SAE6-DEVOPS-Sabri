@@ -1,4 +1,5 @@
-FROM sabri321/projet-devops-5sae6:latest
+# Utilise une image de base avec OpenJDK 17 pour exécuter une application Spring Boot
+FROM openjdk:17-jdk-slim
 
 # Définit le port exposé par le conteneur
 EXPOSE 8089
