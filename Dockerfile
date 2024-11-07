@@ -1,4 +1,4 @@
-FROM sabri/projet-devops-5SAE6
+FROM sabri321/projet-devops-5sae6:latest
 
 # Définit le port exposé par le conteneur
 EXPOSE 8089
